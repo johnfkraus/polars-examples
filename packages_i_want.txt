@@ -1,0 +1,7 @@
+
+
+pip install polars-lts-cpu  (convert pandas to polars on non M1 cpu)
+
+import polars_extensions as plx
+schema = plx.read_schema('schema.json')
+schema
